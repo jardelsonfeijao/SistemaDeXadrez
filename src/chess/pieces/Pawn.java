@@ -11,10 +11,10 @@ public class Pawn extends ChessPiece {
 	private ChessMatch chessMatch;
 
 	public Pawn(Board board, Color color) {
-		super(board, color);
-		this.chessMatch = chessMatch;
+		super(board, color);		
 	}
 
+	
 	@Override
 	public boolean[][] possibleMoves() {
 		boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
