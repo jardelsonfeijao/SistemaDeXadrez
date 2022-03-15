@@ -1,6 +1,5 @@
 package chess;
 
-import java.io.ObjectInputFilter.Status;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -356,4 +355,3 @@ public class ChessMatch {
 		placeNewPiece('h', 7, new Pawn(board, Color.BLACK, this));
 	}
 }
-
